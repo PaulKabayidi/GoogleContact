@@ -1,100 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script src="Index.js" defer></script>
 </head>
-
-<header> <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M15.9 13.2c-.1 0-.1-.1-.2-.1C17.2 12 18 10.3 18 8.4v-.7l.3-2.4c.2-1.6-.9-3-2.4-3.3l-.9-.2c-2-.3-4-.3-6 0l-.8.2c-1.6.3-2.7 1.7-2.5 3.3L6 7.7v.7c0 1.8.8 3.6 2.3 4.7c-.1 0-.1.1-.2.1c-3.3 1.4-5.6 4.5-6 8.1c-.1.5.3 1 .9 1.1c.6.1 17.5 0 18 0h.1c.5-.1.9-.6.9-1.1c-.5-3.6-2.8-6.7-6.1-8.1M12 16.3l-1.7-1.7c1.1-.2 2.2-.2 3.3 0zm0-3.9c-2.2 0-3.9-1.7-4-3.9h8c-.1 2.2-1.8 3.9-4 3.9"/></svg> Contact </header>
-
 <body>
-    <section>
-        <button type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M15.9 13.2c-.1 0-.1-.1-.2-.1C17.2 12 18 10.3 18 8.4v-.7l.3-2.4c.2-1.6-.9-3-2.4-3.3l-.9-.2c-2-.3-4-.3-6 0l-.8.2c-1.6.3-2.7 1.7-2.5 3.3L6 7.7v.7c0 1.8.8 3.6 2.3 4.7c-.1 0-.1.1-.2.1c-3.3 1.4-5.6 4.5-6 8.1c-.1.5.3 1 .9 1.1c.6.1 17.5 0 18 0h.1c.5-.1.9-.6.9-1.1c-.5-3.6-2.8-6.7-6.1-8.1M12 16.3l-1.7-1.7c1.1-.2 2.2-.2 3.3 0zm0-3.9c-2.2 0-3.9-1.7-4-3.9h8c-.1 2.2-1.8 3.9-4 3.9"/></svg>Créer un Contact</button>
-        <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 16 16"><path fill="currentColor" fill-rule="evenodd" d="M11.5 7a4.5 4.5 0 1 1-9 0a4.5 4.5 0 0 1 9 0m-.82 4.74a6 6 0 1 1 1.06-1.06l2.79 2.79a.75.75 0 1 1-1.06 1.06z" clip-rule="evenodd" placeholder="Recherche"/>Recherche</svg>
-        <div>Libellé</div>
-        <div>Fréquents</div>
+    
+    <header>
+        <span>
+            
+        <img src="GoogleContact.png" alt="">
 
-    </section>
+        Contacts
 
-    <section>
+        </span>
 
-        <div>Bureau</div>
-        <div>Bureau</div>
-        <div>Amis</div>
-    </section>
+        <nav>
 
-    <section>
-        <div> Recherche </div> 
-    </section>
+            <div class="search-block">
+                <input type="text" placeholder="Rechercher">
+                <button type="submit">
+                    
+                    Envoyer
 
-    <section>
+                </button>
 
-        <p>Contacts</p>
+            </div>
 
-        <div class="container">
-           
-            <p>Titre</p>
-            <p>E-mail</p>
-            <p>Numéro de téléphone</p>
-            <p>Fonction et entreprise</p>
-            <p>Libellés</p>
-        </div>
-    </section>
+            <div>
+                
+                <div class="add-contact-block">
+                    <div class="add-icon">
+                        <i class="fafa-plus">
+                            </i>
+                    </div>
 
-   <div class="content">
 
-        <section>
+                    <div class="add-text">
+                        Créer contact
 
-        <div>Paul Kabayidi</div>
-        <div>Paul Kabayidi</div>
-        <div>Paul Kabayidi</div>
-        <div>Paul Kabayidi</div>
-        <div>Paul Kabayidi</div>
-        <div>Paul Kabayidi</div>
-        <div>Paul Kabayidi</div>
-        <div>Paul Kabayidi</div>
-        <div>Paul Kabayidi</div>
-        <div>Paul Kabayidi</div>
+                    </div>
 
-    </section>
+                    
 
-    <section>
+            </div>
 
-        <div>paulkabayidi2004@gmail.com</div>
-        <div>paulkabayidi2004@gmail.com</div>
-        <div>paulkabayidi2004@gmail.com</div>
-        <div>paulkabayidi2004@gmail.com</div>
-    </section>
+            
+            <div>
 
-    <section>
+                <div class="contact-block">
+                    <div class="c-add">
+                        <i class="">
+                            </i>
+                    </div>
+                    <div class="add-txt">
+                        Contacts
 
-        <div>0851133749</div>
-        <div>0851133749</div>
-        <div>0851133749</div>
-        <div>0851133749</div>
+            </div>
 
-    </section>
+            </div>
 
-    <section>
-        <div>Apprenant,Kadea academy </div>
-        <div>Apprenant,Kadea academy </div>
-        <div>Apprenant,Kadea academy </div>
-        <div>Apprenant,Kadea academy </div>
-    </section>
+            <section id="content">
+                
+                <div class="container">Fréquents</div>
 
-    <section>
-        <div>Bureau</div>
-        <div>Bureau </div>
-        <div>Bureau </div>
-        <div>Bureau </div>
-    </section>
 
-</div>
+            </section>
 
+            <section id="content">
+                
+                <div class="container">Autres contacts</div>
+
+
+            </section>
+
+            <section id="content">
+                
+                <div class="container">Autres contacts</div>
+
+
+            </section>
+
+            <section id="content">
+                
+                <div class="container"><b>Corriger et gérer</b></div>
+
+            </section>
+
+            <section id="content">
+                
+                <div class="container">Fusionner et corriger</div>
+
+            </section>
+
+            <section id="content">
+                
+                <div class="container">Fusionner</div>
+
+            </section>
+
+            <section id="content">
+                
+                <div class="container">Corbeille</div>
+
+            </section>
+            
+            <div class="Libellé">
+                    <div class="content-libellé">
+                        <i class="">
+                            </i>
+                    </div>
+                    <div class="add-libellé">
+                        Libellé
+        </nav>
+
+    </header>
+
+    <main>
+
+
+    </main>
+
+    <footer>
+
+
+    </footer>
 </body>
-
-<script src="Index.js"></script>
 </html>

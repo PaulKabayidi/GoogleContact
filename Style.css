@@ -1,15 +1,92 @@
-.container {
+ /*{
 
     display: flex;
     flex-direction: row;
-    justify-content: space-between ;
-    align-items: end;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px ;
+
+}*/
+.add-contact-block {
+
+    width: 100px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    cursor: pointer;
+    background-color: #4285f4;
+    padding: 20px;
+    border-radius: 8px;
 }
 
-.content {
+.add-icon {
+
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.add-text {
+
+    font-size: 16px;
+}
+
+.contact-block {
+
+    width: 100px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    cursor: pointer;
+    background-color: #4285f4;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.c-add {
+
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.add-txt {
+
+    font-size: 16px;
+}
+
+
+
+
+.search-block {
 
     display: flex;
-    flex-direction: row;
-    justify-content: space-between ;
-    align-items: end;
+    align-items: center;
+    background-color: #f2f2f2;
+    border-radius: 2px;
+    padding: 5px;
+
+}
+
+.search-block
+input[type="text"] {
+
+    width: 100ù;
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.search-block
+button[type="submit"]
+{
+    padding: 5px 10px;
+    background-color: #4285f4;
+    color: none;
+    border: none;
+    border-radius: 2px;
+    font-size: 16px;
+
 }
